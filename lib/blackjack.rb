@@ -30,7 +30,7 @@ def initial_round
   return game1
 end
 
-ddef hit?(card_total)
+def hit?(card_total)
   prompt_user
   input = get_user_input
   until input == 'h' || input == 's'
